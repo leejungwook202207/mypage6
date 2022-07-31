@@ -1,0 +1,81 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard",serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+.profile {
+
+    width:  200px;
+    height: 200px;
+    
+
+    border: 2px solid white;
+    border-radius: 100%;
+
+    background-image: url(연꽃.jpg);
+    background-position: center;
+    background-size: cover;
+       
+}
+
+.main {
+    width: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 3px 3px 5px 0px black;
+    text-align: center;
+    
+}
+
+.sub {
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0px
+    margin-bottom:30px;
+}
+
+.wrap {
+    width: 300px;
+
+    margin: 100px auto 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap > a {
+
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    box-shadow: 3px 3px 5px 0px black;
+}
+
+.wrap > a:hover {
+    background-color: #d2d2d2;
+    font-size: 18px;
+    color: red;
+}
